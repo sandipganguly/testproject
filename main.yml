@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World from my github - Trigger once more"
+        msg: "Hello World from my github - Trigger second time "
