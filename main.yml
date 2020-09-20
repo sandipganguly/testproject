@@ -1,6 +1,6 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Hello Message from custom resurce
       debug:
         msg: "Hello World from my github - Trigger second time ."
