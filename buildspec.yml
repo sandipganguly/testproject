@@ -1,0 +1,16 @@
+---
+version: 0.1
+
+
+
+phases:
+  install:
+    commands:
+      - echo Hi
+  pre_build:
+    commands:
+      - echo "Validating config file $CONFIG_FILE"
+
+  build:
+    commands:
+      - echo "Validating resources..."
