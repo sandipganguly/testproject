@@ -14,6 +14,6 @@ jobs:
         run: echo running on branch ${GITHUB_REF##*/}
       - name: List
         run: ls -lrt
-      - name: printenv
+      - name: printenvlist
         run: printenv
 
